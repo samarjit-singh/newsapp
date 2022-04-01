@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export class NavBar extends Component {
   render() {
@@ -7,9 +8,9 @@ export class NavBar extends Component {
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
-            <a className="navbar-brand" href="/">
+            <Link className="navbar-brand" to="/">
               NewsMonkey
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -32,43 +33,38 @@ export class NavBar extends Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/about">
-                    About
+                  <a className="nav-link" href="/business">
+                    Business
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/about">
-                    business
+                  <a className="nav-link" href="/entertainment">
+                    Entertainment
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/about">
-                    entertainment
+                  <a className="nav-link" href="/general">
+                    General
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/about">
-                    general
+                  <a className="nav-link" href="/health">
+                    Health
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/about">
-                    health
+                  <a className="nav-link" href="/science">
+                    Science
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/about">
-                    science
+                  <a className="nav-link" href="/sports">
+                    Sports
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/about">
-                    sports
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/about">
-                    technology
+                  <a className="nav-link" href="/technology">
+                    Technology
                   </a>
                 </li>
               </ul>
