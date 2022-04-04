@@ -20,7 +20,7 @@ export default class App extends Component {
                 <News
                   pageSize={this.pageSize}
                   country="in"
-                  category="general"
+                  category="General"
                 />
               }
             />
@@ -30,14 +30,14 @@ export default class App extends Component {
                 <News
                   pageSize={this.pageSize}
                   country="in"
-                  category="business"
+                  category="Business"
                 />
               }
             />
             <Route
               path="/entertainment/*"
               element={
-                <News pageSize={6} country="in" category="entertainment" />
+                <News pageSize={6} country="in" category="Entertainment" />
               }
             />
             <Route
@@ -46,14 +46,14 @@ export default class App extends Component {
                 <News
                   pageSize={this.pageSize}
                   country="in"
-                  category="general"
+                  category="General"
                 />
               }
             />
             <Route
               path="/health/*"
               element={
-                <News pageSize={this.pageSize} country="in" category="health" />
+                <News pageSize={this.pageSize} country="in" category="Health" />
               }
             />
             <Route
@@ -62,14 +62,14 @@ export default class App extends Component {
                 <News
                   pageSize={this.pageSize}
                   country="in"
-                  category="science"
+                  category="Science"
                 />
               }
             />
             <Route
               path="/sports/*"
               element={
-                <News pageSize={this.pageSize} country="in" category="sports" />
+                <News pageSize={this.pageSize} country="in" category="Sports" />
               }
             />
             <Route
@@ -78,7 +78,7 @@ export default class App extends Component {
                 <News
                   pageSize={this.pageSize}
                   country="in"
-                  category="technology"
+                  category="Technology"
                 />
               }
             />
