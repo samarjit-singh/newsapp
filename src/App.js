@@ -78,7 +78,7 @@ export default class App extends Component {
                 <News
                   pageSize={this.pageSize}
                   country="in"
-                  category="Technology"
+                  category="echnology"
                 />
               }
             />
