@@ -8,6 +8,7 @@ import LoadingBar from "react-top-loading-bar";
 
 export default class App extends Component {
   pageSize = 6;
+  apiKey = process.env.REACT_APP_NEWS_API;
 
   state = {
     progress: 0,
@@ -30,6 +31,7 @@ export default class App extends Component {
               element={
                 <News
                   setProgress={this.setProgress}
+                  apiKey={this.apiKey}
                   pageSize={this.pageSize}
                   country="in"
                   category="General"
@@ -41,6 +43,7 @@ export default class App extends Component {
               element={
                 <News
                   setProgress={this.setProgress}
+                  apiKey={this.apiKey}
                   pageSize={this.pageSize}
                   country="in"
                   category="Business"
@@ -52,6 +55,7 @@ export default class App extends Component {
               element={
                 <News
                   setProgress={this.setProgress}
+                  apiKey={this.apiKey}
                   pageSize={6}
                   country="in"
                   category="Entertainment"
@@ -63,6 +67,7 @@ export default class App extends Component {
               element={
                 <News
                   setProgress={this.setProgress}
+                  apiKey={this.apiKey}
                   pageSize={this.pageSize}
                   country="in"
                   category="General"
@@ -74,6 +79,7 @@ export default class App extends Component {
               element={
                 <News
                   setProgress={this.setProgress}
+                  apiKey={this.apiKey}
                   pageSize={this.pageSize}
                   country="in"
                   category="Health"
@@ -85,6 +91,7 @@ export default class App extends Component {
               element={
                 <News
                   setProgress={this.setProgress}
+                  apiKey={this.apiKey}
                   pageSize={this.pageSize}
                   country="in"
                   category="Science"
@@ -96,6 +103,7 @@ export default class App extends Component {
               element={
                 <News
                   setProgress={this.setProgress}
+                  apiKey={this.apiKey}
                   pageSize={this.pageSize}
                   country="in"
                   category="Sports"
@@ -107,6 +115,7 @@ export default class App extends Component {
               element={
                 <News
                   setProgress={this.setProgress}
+                  apiKey={this.apiKey}
                   pageSize={this.pageSize}
                   country="in"
                   category="Technology"
